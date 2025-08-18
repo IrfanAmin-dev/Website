@@ -63,27 +63,25 @@
 
 @layer base {
   :root {
-    --background: 210 40% 98;
-    --foreground: 222 47% 11%;
-
-    --card:0 0% 100%;
-
-    --primary: 250 47% 60%;
-    --primary-foreground: 210 40% 98%;
-
-    --border: 214 32% 91%;
+    --background: 120 40% 7%;
+    --foreground: 30 15% 90%;
+    --card: 30 25% 12%;
+    --primary: 100 45% 30%;
+    --primary-foreground: 30 20% 90%;
+    --border: 100 20% 25%;
+    --star-color: 50 90% 60%; /* golden stars */
+    --meteor-color: 50 90% 60%; /* golden meteors */
   }
 
   .dark {
-    --background: 222 47% 4;
+    --background: 222 47% 4%;
     --foreground: 213 31% 91%;
-
     --card: 222 47% 8%;
-
     --primary: 250 65% 65%;
     --primary-foreground: 213 31% 91%;
-
     --border: 217 33% 20%;
+    --star-color: 0 0% 100%; /* white stars */
+    --meteor-color: 0 0% 100%; /* white meteors */
   }
 
   * {
@@ -144,13 +142,15 @@
 }
 
 @utility star {
-  @apply absolute rounded-full bg-white;
-  box-shadow: 0 0 10px 2px rgba(255,255,255,0.4);
+  @apply absolute rounded-full;
+  background-color: hsl(var(--star-color));
+  box-shadow: 0 0 10px 2px hsl(var(--star-color)/0.5);
 }
 
 @utility meteor {
-  @apply absolute bg-linear-to-r from-white via-white to-transparent rounded-full;
-  box-shadow: 0 0 10px 5px rgba(255,255,255,0.3);
+  @apply absolute bg-gradient-to-r rounded-full;
+  background: linear-gradient(to right, hsl(var(--meteor-color)), hsl(var(--meteor-color)/0));
+  box-shadow: 0 0 10px 5px hsl(var(--meteor-color)/0.3);
 }
 
 #root {

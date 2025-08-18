@@ -12,6 +12,10 @@ const skills = [
   { name: "Sysmon (Endpoint Monitoring)", level: 65, category: "security" },
   { name: "Wireshark (Network Analysis)", level: 70, category: "security" },
   { name: "Shodan (Network Reconnaissance)", level: 60, category: "security" },
+  { name: "OpenVas", level: 60, category: "security" },
+  { name: "Nmap", level: 60, category: "security" },
+  { name: "Nessus", level: 60, category: "security" },
+  { name: "Metasploit", level: 60, category: "security" },
 
   // Cloud & Infrastructure
   { name: "Azure", level: 80, category: "cloud" },
@@ -23,11 +27,12 @@ const skills = [
   { name: "HTML5", level: 85, category: "dev" },
   { name: "CSS3", level: 80, category: "dev" },
   { name: "JavaScript (ES6+)", level: 70, category: "dev" },
-  { name: "Python (APIs, Automation)", level: 75, category: "dev" },
-  { name: "Node.js (Basics)", level: 55, category: "dev" },
+  { name: "Python", level: 75, category: "dev" },
+  { name: "Node.js", level: 55, category: "dev" },
+  { name: "React.js", level: 55, category: "dev" },
 
   // Networking
-  { name: "TCP/IP Fundamentals", level: 80, category: "networking" },
+  { name: "TCP/IP", level: 80, category: "networking" },
   { name: "Firewalls & Access Control", level: 75, category: "networking" },
   { name: "DNS & DHCP", level: 70, category: "networking" },
   { name: "VPN & Tunneling Protocols", level: 65, category: "networking" },
@@ -37,7 +42,7 @@ const skills = [
   { name: "Automation & Scripting", level: 75, category: "automation" },
 
   // Systems & Tools
-  { name: "Linux (Red Hat)", level: 80, category: "tools" },
+  { name: "Linux", level: 80, category: "tools" },
   { name: "Docker (Containers)", level: 60, category: "tools" },
 
   // Frameworks & Libraries

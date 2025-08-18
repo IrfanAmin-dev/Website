@@ -1,30 +1,40 @@
+import { ArrowRight, ExternalLink, Github } from "lucide-react"
 
 
 const projects = [
     {
       id:1,
-      title: "Project 1",
-      description:"blah blah blah",
-      image:"projects/[image]",
-      tags:["react","tailwindcss", "javascript","html"],
+      title: "SOC HomeLab",
+      description:"A home lab environment with Windows Sysmon configured, forwarding logs to Splunk Universal Forwarder. Includes custom Splunk dashboards and queries to detect failed logins, PowerShell usage, and privileged logons.",
+      image:"projects/soc_iot.jpg",
+      tags:["Sysmon","Splunk", "Powershell","SPL(Search Processing Language for querying)"],
       demoUrl: "#",
       githubUrl: "#",
     },
     {
       id:2,
-      title: "Project 1",
-      description:"blah blah blah",
-      image:"projects/[image]",
-      tags:["react","tailwindcss", "javascript","html"],
+      title: "Website Portfolio",
+      description:"React.js built web application to create an online portfolio.Uses TailwindCSS and deployed with Vercel.",
+      image:"projects/websiteGif.gif",
+      tags:["React.js","Tailwindcss", "Javascript","HTML","Vercel"],
+      demoUrl: "#",
+      githubUrl: "#",
+    },
+       {
+      id:3,
+      title: "Terraform for Remote Consulting Saas",
+      description:"Capstone project creating a terraform configuration file for Remote based consulting company seeking to expand infrastructuture via Azure.",
+      image:"projects/terraformIMG.png",
+      tags:["Terraform","Vscode", "Azure","IaC","HCL","JSON"],
       demoUrl: "#",
       githubUrl: "#",
     },
     {
-      id:3,
-      title: "Project 1",
-      description:"blah blah blah",
-      image:"projects/[image]",
-      tags:["react","tailwindcss", "javascript","html"],
+      id:4,
+      title: "Enumeration with Nmap,Network sniffing and Pcap file analysis",
+      description:"Enumerated an Enterprise Environment and performed packet analysis on suspicious traffic flow",
+      image:"projects/pcapfilecovered.png",
+      tags:["Wireshark","Nmap", "Packet Sniffing","zenMap","TCP/IP","Kali Linux"],
       demoUrl: "#",
       githubUrl: "#",
     }
@@ -60,13 +70,33 @@ export const Projects = () => {
                                             {tag}
                                         </span>
                                     ))}
-                                </div>
+                                
                             </div>
                             <h3 className="text-xl font-semibold mb-2 ">{project.title}</h3>
                             <p className="text-muted-foreground mb-4">{project.description}</p>
+                            <div className="flex justify-between items-center">    
+                                <div className="flex space-x-3">
+                                    <a href={project.demoUrl} 
+                                    className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                                    target="_blank"> <ExternalLink size={20}/> </a>
+                                    
+                                    <a href={project.githubUrl}
+                                    className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                                    target="_blank"> <Github size={20}/> </a>
+                                </div>
+                                </div>
+                            </div>
                     </div>
                 ))}
 
+            </div>
+            <div className="text-center mt-12">
+                <a className="cosmic-button w-fit flex items-center mx-auto gap-2" 
+                target="_blank"
+                href="github.com/IrfanAmin-dev"
+                >
+                    Check out my Github!!! <ArrowRight size={16} />
+                </a>
             </div>
         </div>
 
