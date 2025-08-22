@@ -8,8 +8,7 @@ const projects = [
       description:"A home lab environment with Windows Sysmon configured, forwarding logs to Splunk Universal Forwarder. Includes custom Splunk dashboards and queries to detect failed logins, PowerShell usage, and privileged logons.",
       image:"projects/soc_iot.jpg",
       tags:["Sysmon","Splunk", "Powershell","SPL(Search Processing Language for querying)"],
-      demoUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/IrfanAmin-dev/Windows-Sysmon-Splunk-Home-Lab",
     },
     {
       id:2,
@@ -17,8 +16,7 @@ const projects = [
       description:"React.js built web application to create an online portfolio.Uses TailwindCSS and deployed with Vercel.",
       image:"projects/websiteGif.gif",
       tags:["React.js","Tailwindcss", "Javascript","HTML","Vercel"],
-      demoUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/IrfanAmin-dev/Website",
     },
        {
       id:3,
@@ -26,8 +24,7 @@ const projects = [
       description:"Capstone project creating a terraform configuration file for Remote based consulting company seeking to expand infrastructuture via Azure.",
       image:"projects/terraformIMG.png",
       tags:["Terraform","Vscode", "Azure","IaC","HCL","JSON"],
-      demoUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/IrfanAmin-dev/Terraform-IaC-Template-for-Saas",
     },
     {
       id:4,
@@ -35,8 +32,7 @@ const projects = [
       description:"Enumerated an Enterprise Environment and performed packet analysis on suspicious traffic flow",
       image:"projects/pcapfilecovered.png",
       tags:["Wireshark","Nmap", "Packet Sniffing","zenMap","TCP/IP","Kali Linux"],
-      demoUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/IrfanAmin-dev/Labs",
     }
 ]
 export const Projects = () => {
@@ -93,7 +89,7 @@ export const Projects = () => {
             <div className="text-center mt-12">
                 <a className="cosmic-button w-fit flex items-center mx-auto gap-2" 
                 target="_blank"
-                href="github.com/IrfanAmin-dev"
+                href="https://github.com/IrfanAmin-dev"
                 >
                     Check out my Github!!! <ArrowRight size={16} />
                 </a>

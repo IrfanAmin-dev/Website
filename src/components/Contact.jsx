@@ -59,16 +59,17 @@ export const Contact = () => {
           </div>
         </div>
 
-        {/* Image */}
-        <div className="bg-card rounded-lg shadow-xs">
-          <div className="h-48 overflow-hidden">
+      {/* Image */}
+        <div className="bg-card rounded-lg shadow-xs overflow-hidden group">
+          <div className="w-full">
             <img
-              src="images/image"
-              alt="Picture of Irfan Amin"
+              src="images/cybermainframe.jpeg"
+              alt="mainframe picture"
               className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
             />
           </div>
-        </div>
+          </div>
+
       </div>
     </section>
   );
