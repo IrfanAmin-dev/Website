@@ -1,3 +1,6 @@
 # React + Vite Website Portfolio
-A collection of projects,skills, and tools used showcasing my ability
+
+Thank you for visiting my website portfolio.
+Feel free to contact me with the methods provided in the website.
+
 
