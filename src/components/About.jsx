@@ -32,7 +32,7 @@ export const About = () => {
                                 <Code className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">Development/Scripting/Automation</h4>
+                                    <h4 className="font-semibold text-lg">Development</h4>
                                     <p className="text-muted-foreground">
                                         Creating Secure Scripts, Applications, and Workflows
                                     </p>

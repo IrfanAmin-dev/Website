@@ -5,13 +5,13 @@ import {cn} from "@/lib/utils"
 
 const skills = [
   // Cybersecurity & IAM
-  { name: "Identity & Access Management (IAM)", level: 75, category: "security" },
-  { name: "NIST 800-53 (Compliance)", level: 75, category: "security" },
+  { name: "Identity & Access Management", level: 75, category: "security" },
+  { name: "NIST 800-53 ", level: 75, category: "security" },
   { name: "Incident Detection & Response", level: 70, category: "security" },
-  { name: "Splunk (SOC Monitoring)", level: 70, category: "security" },
-  { name: "Sysmon (Endpoint Monitoring)", level: 65, category: "security" },
-  { name: "Wireshark (Network Analysis)", level: 70, category: "security" },
-  { name: "Shodan (Network Reconnaissance)", level: 60, category: "security" },
+  { name: "Splunk ", level: 70, category: "security" },
+  { name: "Sysmon", level: 65, category: "security" },
+  { name: "Wireshark ", level: 70, category: "security" },
+  { name: "Shodan ", level: 60, category: "security" },
   { name: "OpenVas", level: 60, category: "security" },
   { name: "Nmap", level: 60, category: "security" },
   { name: "Nessus", level: 60, category: "security" },
@@ -105,10 +105,10 @@ export const Skills = () => {
                             <div className="bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease-out]"
                             style = {{width: skills.level + "%" }}
                             />
-                        </div>
-                        <div className="text-right ml-1">
-                            <span className="text-sm text-muted-foreground">{skills.level}%</span>
-                        </div>
+                        </div> 
+                        {/* <div className="text-right ml-1">
+                            <span className="text-sm text-muted-foreground">{skills.level}%</span> 
+                        </div> */}
 
 
                     </div>

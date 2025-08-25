@@ -30,7 +30,7 @@ const projects = [
       id:4,
       title: "Enumeration with Nmap,Network sniffing and Pcap file analysis",
       description:"Enumerated an Enterprise Environment and performed packet analysis on suspicious traffic flow",
-      image:"projects/pcapfilecovered.png",
+      image:"projects/network.jpg",
       tags:["Wireshark","Nmap", "Packet Sniffing","zenMap","TCP/IP","Kali Linux"],
       githubUrl: "https://github.com/IrfanAmin-dev/Labs",
     }
