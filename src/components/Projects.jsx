@@ -11,7 +11,15 @@ const projects = [
       githubUrl: "https://github.com/IrfanAmin-dev/Windows-Sysmon-Splunk-Home-Lab",
     },
     {
-      id:2,
+      id: 2,
+      title: "Network Scanner",
+      description: "Python-based Network scanner that returns MAC, IP, and Vendor information",
+      image: "projects/NetworkScanner.jpeg",
+      tags: ["Python", "Scapy", "ARP Scanning", "Networking", "Cybersecurity", "Penetration Testing"],
+      githubUrl: "https://github.com/IrfanAmin-dev/NetworkScanner",
+    },
+    {
+      id:3,
       title: "Website Portfolio",
       description:"React.js built web application to create an online portfolio.Uses TailwindCSS and deployed with Vercel.",
       image:"projects/websiteGif.gif",
@@ -19,7 +27,7 @@ const projects = [
       githubUrl: "https://github.com/IrfanAmin-dev/Website",
     },
        {
-      id:3,
+      id:4,
       title: "Terraform for Remote Consulting Saas",
       description:"Capstone project creating a terraform configuration file for Remote based consulting company seeking to expand infrastructuture via Azure.",
       image:"projects/terraformIMG.png",
@@ -27,7 +35,7 @@ const projects = [
       githubUrl: "https://github.com/IrfanAmin-dev/Terraform-IaC-Template-for-Saas",
     },
     {
-      id:4,
+      id:5,
       title: "Enumeration with Nmap,Network sniffing and Pcap file analysis",
       description:"Enumerated an Enterprise Environment and performed packet analysis on suspicious traffic flow",
       image:"projects/network.jpg",
