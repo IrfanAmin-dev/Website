@@ -60,7 +60,7 @@ export const About = () => {
                                  <div className="text-left">
                                     <h4 className="font-semibold text-lg">Communication</h4>
                                     <p className="text-muted-foreground">
-                                        Able to transalte Technical Jargon into Simple, Practical Terms
+                                        Able to translate Technical Jargon into Simple, Practical Terms
                                     </p>
                                 </div>
                             </div>
